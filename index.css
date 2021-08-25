@@ -1,5 +1,5 @@
 *{
-    margin: 0 px;
+    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
@@ -8,8 +8,8 @@
 }
 body{
     /* position:absolute; */
-    max-width: 1440 px;
-    margin: 0px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header{
@@ -117,7 +117,7 @@ nav {
 
 #pb-1{
     width: 555px;
-    margin-top: 19.20 px;
+    margin-top: 19.20px;
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -151,6 +151,7 @@ nav {
     background: #FFFFFF;
 
     border-radius: 10px;
+    box-shadow: 0px 10px 100px 1px #d6d7df;;
     /* opacity: 1; */
     /* z-index: 1; */
     /* border-bottom: 1px solid rgb(233, 226, 226) blurry; */
@@ -204,7 +205,7 @@ nav {
 }
 
 #b2-content{
-    padding-right: 220px;
+    padding-right: 160px;
     padding-left:169.48px;
 }
 
@@ -213,12 +214,14 @@ nav {
     font-size: 35px;
     line-height: 50px;
     padding-top:22px;
+    padding-right: 10px;
 }
 
 #b2p{
     font-size: 16px;
     line-height: 30px;
-    margin-bottom: 0px;;
+    margin-top:20px;
+    margin-bottom: 0px;
 }
 
 #b2ul{
@@ -288,7 +291,7 @@ color: #0B132A;
     line-height: 30px;
     /* or 187% */
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #b3hp p{
@@ -403,8 +406,9 @@ line-height: 30px;
 #o1{
     /* display: inline-block; */
     /* border:2px solid black; */
-    width: 483.41 px;
+    width: 483.41px;
     height:100px;
+    margin: auto;
     text-align: center;
     position : relative;
     bottom: 70px;
@@ -496,7 +500,9 @@ line-height: 30px;
 #b4-bp{
     width:555px;
     height: 60px;
-    margin-top: 10px;
+    margin-top: 20px;
+    font-size:16px;
+    line-height:30px;
     /* padding-top: 0px; */
 }
 
@@ -557,13 +563,15 @@ line-height: 30px;
     top: 22px;
 }
 
-#rec2{
+
+
+#subscribe{
     position: absolute;
     width: 1140px;
     height: 233px;
-    left: 150px;
+    /* left: 560px; */
     top: 4509.28px;
-
+    margin-left:160px;
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 1px 1px 200px 1px #dddeec;
@@ -572,18 +580,18 @@ line-height: 30px;
 
 
 #sub-text{
-    position: absolute;
+    position: relative;
     width: 371.61px;
     height: 80px;
-    left: 220px;
-    top: 4567.78px;
+    top:58.5px;
+    left:70px;
     
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 45px;
-    /* or 129% */
+    
     
     display: flex;
     align-items: center;
@@ -593,29 +601,30 @@ line-height: 30px;
 }
 
 #btn-sub{
-    position: absolute;
-width: 250px;
-height: 60px;
-left: 970px;
-top: 4595.78px;
+    position: relative;
+    width: 250px;
+    height: 60px;
+    left: 820px;
+    /* top: 4595.78px; */
 
-background: #F53838;
-border-radius: 10px;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 25px;
-color: #FFFFFF;
-box-shadow: 1px 10px 50px 1px rgba(245, 56, 56, 0.35);
-}
+    background: #F53838;
+    border: 1px solid #F53838;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    box-shadow: 1px 10px 50px 1px rgba(245, 56, 56, 0.35);
+} 
 
 
 #lets-subscribe{
-    position: absolute;
+    position: relative;
 width: 410px;
 height: 16px;
-left: 220px;
-top: 4667.78px;
+left: 70px;
+top: 30px;
 
 font-family: Rubik;
 font-style: normal;
@@ -658,9 +667,13 @@ justify-content: space-between;
 width: 340 px;
 }
 
+#flist-h1{
+    font-size:18px;
+}
+
 #social-logo{
     display: flex;
-    position: relative;
+    /* position: relative; */
     bottom: 70px;
     right: 10px;
 }
@@ -670,23 +683,26 @@ width: 340 px;
 }
 #f1divp{
     margin-top: 26px;
+    font-size: 16px;
+    line-height:30px;
+}
+
+#social-logo{
+    position: relative;
+    bottom: 20px;
 }
 
 #copyright{
-    position: absolute;
-width: 108px;
-height: 30px;
-left: 162px;
-top: 5017.18px;
-
+    position: relative;
+    bottom: 90px;
 font-family: Rubik;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
 line-height: 30px;
 /* identical to box height, or 187% */
-
-text-align: center;
+padding-left: 30px;
+/* text-align: center; */
 
 color: #AFB5C0;
 }
