@@ -70,6 +70,9 @@ nav {
 
 #signin{
     margin-right: 30px;
+    font-size:16px;
+    line-height:19px;
+    font-weight: 500;
 }
 #signup-btn{
     width: 150px;
@@ -524,11 +527,7 @@ line-height: 30px;
     border-radius: 10px;
 }
 
-#slide2{
-    margin-left: 45px;
-    margin-right: 46px;
 
-}
 #slide2, #slide3{
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
@@ -540,13 +539,13 @@ line-height: 30px;
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 50%;
-    margin-right: 31px;
+    /* margin-right: 31px; */
 }
 
 #left{
     position: relative;
     top: 20px;
-    left: 18px;
+    /* left: 18px; */
 }
 
 #circler{
@@ -559,7 +558,7 @@ line-height: 30px;
 
 #right{
     position: relative;
-    left: 20px;
+    /* left: 20px; */
     top: 22px;
 }
 
@@ -727,7 +726,8 @@ color: #AFB5C0;
     /* identical to box height, or 187% */
 
 
-    color: #4F5665;
+    color: #0B132A;
+    ;
 }
 
 .shadow{
@@ -741,7 +741,6 @@ color: #AFB5C0;
 .slides{
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
 
 #user{
@@ -774,10 +773,47 @@ color: #AFB5C0;
     line-height:30px;
     font-size:14px;
     padding: 0px 27px;
-    font-weight:bold;
+    /* font-weight:bold; */
 }
 
 #address{
     font-size: 12px;
     line-height: 30px;
 }
+
+#b5{
+    width: 100%;height: 250px;
+}
+
+.splide{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.splide__track{
+    position: relative;
+    z-index: 0;
+    width: 1260px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* .splide__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.splide__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__arrow{
+    width:fit-content;
+    height:fit-content;
+    background: rgb(255, 255, 255);
+  }
