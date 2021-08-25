@@ -736,6 +736,48 @@ color: #AFB5C0;
     height: 60px;
     left: 169.09px;
     top: 502.06px;
+}
 
+.slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+}
 
+#user{
+    display: flex;
+
+}
+
+#name{
+    display: flex;
+    flex-direction:column;
+    margin-left:18.2px;
+}
+
+#rating{
+    display: flex;
+    padding-left: 90px;
+    align-items: center;
+}
+
+#ratingimg{
+    padding-left:10.2px;
+}
+
+.user-details{
+    margin-top:27.22px;
+    margin-left: 27.3px;
+}
+
+.comment{
+    line-height:30px;
+    font-size:14px;
+    padding: 0px 27px;
+    font-weight:bold;
+}
+
+#address{
+    font-size: 12px;
+    line-height: 30px;
 }
